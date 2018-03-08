@@ -1,0 +1,66 @@
+body {
+  font-family: 'Josefin Sans', sans-serif;
+  background: #000;
+  color : #efefef;
+}
+
+header{
+  min-height: 80vh;
+  background-image: url('images/CAMILLE.jpg');
+
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.comp-section-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.comp-section-item {
+  width: 32%;
+  margin: 10px;
+  max-width: 320px;
+  min-width: 300px;
+}
+
+.comp-section-item img {
+    width: 100%;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Open Sans', sans-serif;
+    color: #000;
+    text-align: center;
+}
+
+.comp-content {
+    margin: 20px;
+    width: auto;
+    background-color: #334444;
+}
+
+#bio {
+    min-height: 45vh;
+    display: flex;
+    align-items: center;
+}
+section {
+
+}
+.header-content-block {
+  background: rgba(0,139,139,0.5);
+  padding: 15px;
+
+}
+
+
+.portfolio {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
